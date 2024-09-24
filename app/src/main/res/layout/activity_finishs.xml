@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finishs">
+
+    <ImageButton
+        android:id="@+id/btnback5"
+        android:layout_width="111dp"
+        android:layout_height="117dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis proyectos y logros"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estoy desarrollando una app en android estudio la cual trata de compra y venta de consolas reacondicionadas de todas las generaciones existentes hasta la actualidad, otro proyecto que hice fue el convertir una laptop sin pantalla en una pc de escritorio completamente funcional. Mis logros fueron volverme el mejor practicante de mi colegio en el año 2023, tengo el titulo de tecnico de programacion, premio de merito educacional y en 2 medio pase con un promedio 7.0 en mi colegio que lamentablemente no me reconocieron :,v."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="220dp"
+        android:layout_height="119dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468"
+        app:srcCompat="@drawable/computacion" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="220dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702"
+        app:srcCompat="@drawable/escuela" />
+</androidx.constraintlayout.widget.ConstraintLayout>
